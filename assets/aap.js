@@ -18,18 +18,10 @@ let resostaEstaVisivel = false;
 
 function viraCartao(){
     resostaEstaVisivel = !resostaEstaVisivel;
-    cartao.classList.toggle('active, respostaEstaVisivel');
+    cartao.classList.toggle('active', respostaEstaVisivel);
 }
 
-cartao.addEventListener('click, viraCartao');
-
-container.appendChild
-
-
-
-
-
-
+cartao.addEventListener('click', viraCartao);
 
    container.appendChild('cartao');
 }
