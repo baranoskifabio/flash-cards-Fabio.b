@@ -14,10 +14,10 @@ function criaCartao(categoria, pergunta, resposta){
                     </div>
                 </div>
    `
-let resostaEstaVisivel = false;
+let respostaEstaVisivel = false;
 
 function viraCartao(){
-    resostaEstaVisivel = !resostaEstaVisivel;
+    respostaEstaVisivel = !respostaEstaVisivel;
     cartao.classList.toggle('active', respostaEstaVisivel);
 }
 
